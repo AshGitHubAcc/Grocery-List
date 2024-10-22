@@ -1,0 +1,51 @@
+.list-container {
+
+
+    width: 50vw;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(115, 115, 115);
+    margin-top: 50px;
+
+    padding: 10px 50px;
+    border-radius: 5px;
+
+
+}
+
+.list {
+    list-style-type: none;
+    width: 100%;
+    padding: 0px;
+}
+
+.list li {
+    color: rgb(233, 233, 233);
+    background-color: rgb(145, 145, 145);
+    margin: 15px 0px;
+
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.info {
+    margin: 0;
+}
+
+.delete-image {
+    position: absolute;
+    right: 5%;
+}

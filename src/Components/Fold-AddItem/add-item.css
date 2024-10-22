@@ -1,0 +1,27 @@
+.add-item-container {
+
+    width: 350px;
+    height: 50px;
+    background-color: rgb(59, 99, 112);
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.add-item {
+    width: 80%;
+    height: 50%;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.add-image {
+    margin-left: 20px;
+    margin-right: 15px;
+}
